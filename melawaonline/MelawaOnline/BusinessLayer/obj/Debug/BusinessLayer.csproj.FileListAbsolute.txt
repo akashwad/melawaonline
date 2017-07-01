@@ -1,0 +1,7 @@
+D:\melawaonline\MelawaOnline\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\melawaonline\MelawaOnline\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\melawaonline\MelawaOnline\BusinessLayer\bin\Debug\DataAccessLayer.dll
+D:\melawaonline\MelawaOnline\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+D:\melawaonline\MelawaOnline\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\melawaonline\MelawaOnline\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\melawaonline\MelawaOnline\BusinessLayer\obj\Debug\BusinessLayer.pdb

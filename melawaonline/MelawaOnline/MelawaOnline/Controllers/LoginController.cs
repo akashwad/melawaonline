@@ -15,17 +15,28 @@ namespace MelawaOnline.Controllers
         // POST api/login
         [Route("SignInUser")]
         [HttpPost]
-        public IEnumerable<string> SignInUser([FromBody]Login login)
+        public IEnumerable<string> SignInUser([FromBody]LoginValidation login)
         {
-            return new string[] { "signinuser", "value2" };
+            bool check=login.ValidateAuthentication();
+            if(check)
+            { 
+            return new string[] {"Valid User" };
+            }
+            return new string[] { "Invalid User" };
         }
 
         // POST api/login
         [Route("SignUpUser")]
         [HttpPost]
-        public IEnumerable<string> SignUpUser([FromBody]Login login)
+        public IEnumerable<string> SignUpUser([FromBody]UserSignUp userSignUp)
         {
-            return new string[] { "SignUpUser", "value2" };
+            bool check = userSignUp.AddUser();
+            if (check)
+            {
+                return new string[] { "User Added Successfully!!!" };
+            }
+            return new string[] { "Failed UserSignUp!!!" };
+            
         }
     }
 }

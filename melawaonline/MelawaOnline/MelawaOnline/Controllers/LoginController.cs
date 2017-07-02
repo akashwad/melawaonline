@@ -17,7 +17,7 @@ namespace MelawaOnline.Controllers
         [HttpPost]
         public IEnumerable<string> SignInUser([FromBody]LoginValidation login)
         {
-            bool check=login.ValidateAuthentication();
+            bool check=login.ValidateAuthentication(login);
             if(check)
             { 
             return new string[] {"Valid User" };

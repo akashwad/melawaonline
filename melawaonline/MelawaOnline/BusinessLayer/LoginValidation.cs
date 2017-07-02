@@ -1,30 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DataAccessLayer;
 
 namespace BusinessLayer
 {
     public class LoginValidation
     {
+        
         private string userID=null;
         private string password = null;
          
 
-        public LoginValidation(string userID, string password)
-        {
-            this.UserID = userID;
-            this.Password = password;            
-        }
-
         public string UserID { get => userID; set => userID = value; }
         public string Password { get => password; set => password = value; }
          
-        public bool ValidateAuthentication()
+        public bool ValidateAuthentication(LoginValidation login)
         {
             //DAO layer method call
-            return true;
+            DataAccess dal = new DataAccess();
+            return dal.ValidateLogin(login.userID, login.password);
+            
         }
     }
 }

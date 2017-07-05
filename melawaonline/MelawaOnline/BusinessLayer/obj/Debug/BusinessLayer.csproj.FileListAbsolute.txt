@@ -5,3 +5,10 @@ D:\melawaonline\MelawaOnline\BusinessLayer\bin\Debug\DataAccessLayer.pdb
 D:\melawaonline\MelawaOnline\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
 D:\melawaonline\MelawaOnline\BusinessLayer\obj\Debug\BusinessLayer.dll
 D:\melawaonline\MelawaOnline\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\Abhinav\Desktop\MelawaProject\melawaonline\melawaonline\MelawaOnline\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Abhinav\Desktop\MelawaProject\melawaonline\melawaonline\MelawaOnline\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Abhinav\Desktop\MelawaProject\melawaonline\melawaonline\MelawaOnline\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Abhinav\Desktop\MelawaProject\melawaonline\melawaonline\MelawaOnline\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Abhinav\Desktop\MelawaProject\melawaonline\melawaonline\MelawaOnline\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Abhinav\Desktop\MelawaProject\melawaonline\melawaonline\MelawaOnline\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Abhinav\Desktop\MelawaProject\melawaonline\melawaonline\MelawaOnline\BusinessLayer\obj\Debug\BusinessLayer.pdb

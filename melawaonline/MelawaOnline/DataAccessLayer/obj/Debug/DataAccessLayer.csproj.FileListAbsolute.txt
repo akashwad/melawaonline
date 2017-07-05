@@ -3,3 +3,8 @@ D:\melawaonline\MelawaOnline\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
 D:\melawaonline\MelawaOnline\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
 D:\melawaonline\MelawaOnline\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 D:\melawaonline\MelawaOnline\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Abhinav\Desktop\MelawaProject\melawaonline\melawaonline\MelawaOnline\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Abhinav\Desktop\MelawaProject\melawaonline\melawaonline\MelawaOnline\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Abhinav\Desktop\MelawaProject\melawaonline\melawaonline\MelawaOnline\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Abhinav\Desktop\MelawaProject\melawaonline\melawaonline\MelawaOnline\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Abhinav\Desktop\MelawaProject\melawaonline\melawaonline\MelawaOnline\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

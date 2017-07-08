@@ -17,8 +17,7 @@ namespace BusinessLayer
             
         }
 
-      
-        public string ConfirmPassword { get => confirmPassword; set => confirmPassword = value; }
+     
         public bool AddUser()
         {
             //DAO layer method call

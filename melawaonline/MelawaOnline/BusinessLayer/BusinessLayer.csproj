@@ -40,12 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CandidateRegisteration.cs" />
     <Compile Include="LoginValidation.cs" />
-    <Compile Include="Profile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Search.cs" />
-    <Compile Include="SearchCriteria.cs" />
-    <Compile Include="UserInfo.cs" />
     <Compile Include="UserSignUp.cs" />
   </ItemGroup>
   <ItemGroup>

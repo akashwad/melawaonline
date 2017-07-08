@@ -270,6 +270,10 @@
       <Project>{d205cd0f-6ec7-49c6-a682-71b10873fcb6}</Project>
       <Name>BusinessLayer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{d06d07cf-d392-4039-8584-239e24ea5a5b}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

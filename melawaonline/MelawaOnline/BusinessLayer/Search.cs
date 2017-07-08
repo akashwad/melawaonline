@@ -8,9 +8,9 @@ namespace BusinessLayer
 {
     public class Search
     {
-        public UserInfo[] SearchProfile(SearchCriteria searchCriteria)
+        public UserInfoDOJO[] SearchProfile(SearchCriteria searchCriteria)
         {
-            UserInfo[] userInfo = null;
+            UserInfoDOJO[] userInfo = null;
 
 
             return userInfo;

@@ -15,7 +15,7 @@ namespace MelawaOnline.Controllers
         public string SearchProfile([FromBody]SearchCriteria searchCriteria)
         {
             Search prof = new Search();
-            UserInfo[] arruserInfo = prof.SearchProfile(searchCriteria);
+            UserInfoDOJO[] arruserInfo = prof.SearchProfile(searchCriteria);
 
             return "";
         }

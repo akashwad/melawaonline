@@ -3,36 +3,42 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using DataAccessLayer;
+using Common;
 namespace BusinessLayer
 {
     public class Profile
     {
-        public string CreateProfile(UserInfo userInfo)
+        public string CreateProfile(UserInfoDOJO userInfo)
         {
+            CreateProfileDAO createProfileDAO = new CreateProfileDAO();
+            String phoneNumber = createProfileDAO.insertNewUserProfile(userInfo);
             return "";
         }
 
-        public UserInfo UpdateProfile(UserInfo userInfo)
+        public UserInfoDOJO UpdateProfile(UserInfoDOJO userInfo)
         {
-            UserInfo usrInfo = new UserInfo();
+            UserInfoDOJO usrInfo = new UserInfoDOJO();
+            
             return usrInfo;
         }
 
-        public bool DeleteProfile(UserInfo userInfo)
+        public bool DeleteProfile(UserInfoDOJO userInfo)
         {
+            
+            
             return true;
         }
 
-        public UserInfo ViewProfile(string phoneNumber)
+        public UserInfoDOJO ViewProfile(string phoneNumber)
         {
-            UserInfo usrInfo = new UserInfo();
+            UserInfoDOJO usrInfo = new UserInfoDOJO();
             return usrInfo;
         }
 
-        public UserInfo DetailProfile(string phoneNumber)
+        public UserInfoDOJO DetailProfile(string phoneNumber)
         {
-            UserInfo usrInfo = new UserInfo();
+            UserInfoDOJO usrInfo = new UserInfoDOJO();
             return usrInfo;
         }
 

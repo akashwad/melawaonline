@@ -12,21 +12,21 @@ namespace MelawaOnline.Controllers
     {
         [Route("Create")]
         [HttpPost]
-        public string CreateProfile([FromBody]UserInfo userInfo)
+        public string CreateProfile([FromBody]UserInfoDOJO userInfo)
         {
             Profile prof = new Profile();
             string phoneNumber = prof.CreateProfile(userInfo);
-           
+           // code to convert output into JSON
             return "";
         }
 
         [Route("Update")]
         [HttpPost]
-        public string UpdateProfile([FromBody]UserInfo userInfo)
+        public string UpdateProfile([FromBody]UserInfoDOJO userInfo)
         {
             Profile prof = new Profile();
-            UserInfo userInforeturn = prof.UpdateProfile(userInfo);
-
+            UserInfoDOJO userInforeturn = prof.UpdateProfile(userInfo);
+            // code to convert output into JSON
             return "";
 
             //Convert check to json string and send back
@@ -35,11 +35,11 @@ namespace MelawaOnline.Controllers
 
         [Route("Delete")]
         [HttpPost]
-        public string DeleteProfile([FromBody]UserInfo userInfo)
+        public string DeleteProfile([FromBody]UserInfoDOJO userInfo)
         {
             Profile prof = new Profile();
             bool check = prof.DeleteProfile(userInfo);
-
+            // code to convert output into JSON
             return "";
         }
 
@@ -48,18 +48,18 @@ namespace MelawaOnline.Controllers
         public string ViewProfile([FromBody]string phonenumber)
         {
             Profile prof = new Profile();
-            UserInfo userInfo = prof.ViewProfile(phonenumber);
-
+            UserInfoDOJO userInfo = prof.ViewProfile(phonenumber);
+            // code to convert output into JSON
             return "";
         }
 
         [Route("Detail")]
         [HttpPost]
-        public UserInfo DetailProfile([FromBody]string phonenumber)
+        public UserInfoDOJO DetailProfile([FromBody]string phonenumber)
         {
             Profile prof = new Profile();
-            UserInfo userInfo = prof.DetailProfile(phonenumber);
-
+            UserInfoDOJO userInfo = prof.DetailProfile(phonenumber);
+            // code to convert output into JSON
             return userInfo;
         }
     }

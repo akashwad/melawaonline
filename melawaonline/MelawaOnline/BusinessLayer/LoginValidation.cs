@@ -15,9 +15,7 @@ namespace BusinessLayer
         private string password = null;
          
 
-        public string UserID { get => userID; set => userID = value; }
-        public string Password { get => password; set => password = value; }
-         
+      
         public bool ValidateAuthentication(LoginValidation login)
         {
             //DAO layer method call
